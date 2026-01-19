@@ -1,2 +1,2 @@
-# .co
+# dakd
 plastic dana granuels production
