@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plastic Granule Factory - Quality Manufacturing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="top-header">
+
+    <!-- LEFT SIDE -->
+    <div class="header-left">
+        <h1>DAKD ENTERPRISES</h1>
+        <p><i class="fas fa-location-dot"></i> Plot No. 25, Industrial Area, Kanpur, UP</p>
+        <p><i class="fas fa-receipt"></i> GSTIN: 09ABCDE1234F1Z5</p>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="header-right">
+    <img src="images/logo.png" alt="Logo">
+
+       <button class="button" id="contactButton">
+    <i class="fa fa-volume-control-phone"></i> +91-8795682850
+       </button>
+ <!-- First Modal (Contact Form) -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeContact">&times;</span>
+            <h2>Contact Us - DAKD Enterprise Company</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="tel" id="phone" placeholder="Your Phone" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Second Modal (Description Form) -->
+    <div id="descriptionModal" class="modal center-modal">
+        <div class="modal-content">
+            <span class="close" id="closeDescription">&times;</span>
+            <h2>Provide Description - DAKD Enterprise Company</h2>
+            <form id="descriptionForm">
+                <textarea id="description" placeholder="Enter your description or feedback" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Thank You Modal -->
+    <div id="thankYouModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeThankYou">&times;</span>
+            <h2>Thank You!</h2>
+            <p>Thank you for contacting DAKD Enterprise Company. We will get back to you soon!</p>
+        </div>
+    </div>
+
+    <a href="mailto:dakdenterprises6@gmail.com" class="email-box">
+    <i class="fas fa-envelope"></i>
+    Send Email
+</a>
+
+    </div>
+
+</header>
+
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+        <a href="#products"><i class="fas fa-boxes"></i> Products</a>
+        <a href="#production"><i class="fas fa-cogs"></i> Production</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+
+<div class="container">
+
+    <!-- LEFT SIDEBAR -->
+    <div class="sidebar">
+        <h2><i class="fas fa-list"></i> Our Product</h2>
+        <ul>
+            <li class="category" data-category="hdpe">
+                HDPE Granules (6)
+                <ul class="sub-list">
+                    <li data-product="black-hdpe">Black HDPE Granules</li>
+                    <li data-product="bopp-milky">BOPP Milky White Granules</li>
+                    <li data-product="ppcp-dark">PPCP Dark Grey</li>
+                    <li data-product="natural-hdpe">Natural HDPE Granules</li>
+                    <li data-product="reprocessed-hdpe">Reprocessed HDPE Granules</li>
+                    <li data-product="mix-hdpe">Mix HDPE Granules</li>
+                </ul>
+            </li>
+ <li class="category" data-category="plastic">
+                    Plastic Granules (13)
+                    <ul class="sub-list">
+                        <li data-product="recycled-pp">Recycled Pp Granules</li>
+                        <li data-product="plastic-polymer">Plastic Polymer Granules</li>
+                        <li data-product="blue-pp">Blue Pp Granules</li>
+                        <li data-product="recycled-pp-dana">Recycled Pp Dana Plastic</li>
+                        <li data-product="white-bopp">White Bopp Granules</li>
+                        <li data-product="color-pp">Color Pp Granules</li>
+                        <li data-product="pp-non-woven">PP Non Woven Granules</li>
+                        <li data-product="natural-pp">Natural PP Granules</li>
+                        <li data-product="ppcp-black-reprocessed">Ppcp Black Reprocessed Granules</li>
+                        <li data-product="pp-yellow-orange">Pp Yellow Orange</li>
+                        <li data-product="pp-raffia">Pp Raffia Granules</li>
+                        <li data-product="pp-color">PP Color Granules</li>
+                        <li data-product="plastic-granules">Plastic Granules</li>
+                    </ul>
+                </li>
+                <li class="category" data-category="pp">
+                    PP Granules (10)
+                    <ul class="sub-list">
+                        <li data-product="pp-white">PP White Granules</li>
+                        <li data-product="bopp-natural">Bopp Natural Granule</li>
+                        <li data-product="pp-milky-dana">Pp Milky Dana</li>
+                        <li data-product="white-pp">White Pp Granules</li>
+                        <li data-product="pp-green-reprocess">Pp Green Reprocess Granules</li>
+                        <li data-product="pp-colors">Pp Colors Granules</li>
+                        <li data-product="ppcp-grey">Ppcp Grey Granules</li>
+                        <li data-product="ppcp-black">Ppcp Black Granules</li>
+                        <li data-product="pp-raffia-2">PP Raffia Granules</li>
+                        <li data-product="ppcp-light-grey">Ppcp Light Grey</li>
+                    </ul>
+                </li>
+                <li class="category" data-category="ldpe">
+                    LDPE Granules (6)
+                    <ul class="sub-list">
+                        <li data-product="reprocessed-ldpe">Reprocessed LDPE Granule</li>
+                        <li data-product="reprocessed-ldpe-2">Reprocessed Ldpe Granule</li>
+                        <li data-product="ldpe-moulding">Ldpe Moulding Grade</li>
+                        <li data-product="colored-ldpe">Colored LDPE Granules</li>
+                        <li data-product="milky-ldpe">Milky LDPE Granules</li>
+                        <li data-product="white-ldpe">White LDPE Granules</li>
+                    </ul>
+                </li>
+                <li class="category" data-category="bopp">
+                    BOPP Granules (2)
+                    <ul class="sub-list">
+                        <li data-product="dark-grey-pp">Dark Grey Pp Granules</li>
+                        <li data-product="recycled-bopp">Recycled Bopp Granules</li>
+                    </ul>
+                </li>
+                <li class="category" data-category="recycled-plastic">
+                    Recycled Plastic Granules (2)
+                    <ul class="sub-list">
+                        <li data-product="bopp-milky-white-2">Bopp Milky White Granules</li>
+                        <li data-product="pp-brown">Pp Brown Granules</li>
+                    </ul>
+                </li>
+        </ul>
+    </div>
+
+   <!-- RIGHT CONTENT -->
+<div class="content" id="product-display">
+        <p>Select any product to see details.</p>
+</section>
+<section id="home" class="hero">
+        <h2>Welcome to Our Factory</h2>
+        <div class="home">
+           <div class="learnmore-container">
+              <a href="Learn More.html" class="learnmore-btn">Learn More</a>
+        <p>We specialize in producing durable plastic granules used in packaging, construction, and more.</p>
+</section>
+
+    </div>
+</div>
+</div>
+</div>
+ </section>
+    <section id="about">
+        <h2><i class="fas fa-building"></i> About Us</h2>
+        <p>Established in 2010, our factory uses state-of-the-art machinery to recycle and manufacture plastic granules. We prioritize sustainability and quality, serving clients worldwide with eco-friendly solutions.</p>
+    </section>
+    <section id="products">
+        <h2><i class="fas fa-cogs"></i> Our Products</h2>
+        <div class="products">
+            <div class="product1">
+                <i class="fas fa-recycle"></i>
+                <h3><a href="hdpe.html" class="product1-link">HDPE Granules</a></h3>
+                <p>High-density polyethylene granules for bottles and pipes – strong and versatile!</p>
+            </div>
+            <div class="product1">
+                <i class="fas fa-car"></i>
+                <h3><a href="pp.html" class="product1-link">PP Granules</a></h3>
+                <p>Polypropylene granules ideal for automotive and textile applications – lightweight and durable.</p>
+            </div>
+            <div class="product1">
+                <i class="fas fa-leaf"></i>
+                <h3><a href="recycled.html" class="product1-link">Recycled Granules</a></h3>
+                <p>Eco-friendly recycled plastic granules for sustainable use – good for the planet!</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="production">
+        <h2><i class="fas fa-tools"></i> Our Production Process</h2>
+        <p>Our state-of-the-art production facility ensures high-quality plastic granules through a meticulous process. We start with raw plastic materials, which are cleaned, shredded, and melted in advanced extruders. The molten plastic is then pelletized into granules, cooled, and packaged for delivery. Our eco-friendly methods include recycling post-consumer plastics to reduce waste and promote sustainability.</p>
+        <p>Key steps include:</p>
+        <ul>
+            <li><strong>Collection & Sorting:</strong> Gathering and sorting plastic waste.</li>
+            <li><strong>Shredding & Washing:</strong> Breaking down materials and removing impurities.</li>
+            <li><strong>Extrusion & Pelletizing:</strong> Melting and forming into granules.</li>
+            <li><strong>Quality Control:</strong> Testing for purity and strength.</li>
+        </ul>
+        <div class="production-images">
+            <img src="images/production-line.jpg" alt="Production Line">
+            <img src="images/machinery.jpg" alt="Factory Machinery">
+            <img src="images/granule-output.jpg" alt="Granule Output">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2><i class="fas fa-phone"></i> Contact Us</h2>
+        <p>Email: srvhead.danishaikh6666@gmail.com</p>
+        <p>Phone: +91-8795682850</p>
+        <p>Address: [Saray Thok west Munne Miyan ka Chauraha, Hardoi, UP-241001 INDIA]</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+   <footer>
+
+    <span class="share-text">Share Us</span>
+    <!-- Social Media Links -->
+    <a href="https://www.facebook.com/danishaikh6666" target="_blank" rel="noopener noreferrer" title="Facebook">
+        <i class="fab fa-facebook"></i>
+    </a>
+
+    <a href="https://twitter.com/DakdEnterprises" target="_blank" rel="noopener noreferrer" title="Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/dakd-enterprises-1161283a7/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+     <a href="https://www.instagram.com/dakdenterprises/" target="_blank" rel="noopener noreferrer" title="Instagram">
+    <i class="fab fa-instagram"></i>
+</a>
+
+<p>&copy; 2010 Plastic Granule Factory. All rights reserved.</p>
+</footer>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
